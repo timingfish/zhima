@@ -1,0 +1,78 @@
+* {
+    padding:0;
+    margin:0;
+}
+h2 {
+    color:#ffd800;
+    font-size:60px;
+}
+
+p {
+    color: #FEF7E6;
+    font-size: 18px;
+}
+header, section, footer {
+background-color:#985858;
+border:5px #c08989 solid;
+padding:30px 0 20px 50px;
+margin:10px;
+}
+header {
+    background-color: #29d6dd;
+    height: 80px;
+    width: 100%;
+    background-image: url(images/title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    line-height: 80px;
+    
+    background-position: center;
+   
+}
+header li{
+    display:inline;
+    margin-right
+}
+header a {
+    color:white;
+    text-decoration:none;
+}
+header a:hover{
+    text-decoration:underline;
+}
+header ul{
+    position:absolute;
+    right:0vw;
+    top:65px;
+    line-height:80px;
+}
+.stk{
+    background-color:antiquewhite;
+    color:white;
+    height:85vh;
+    background-image:url("images/aisi.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+    .stk a {
+        color:white;
+        text-decoration:none;
+        border:1px solid #ACACAC;
+        padding:5px 10px;
+        border-radius:5px;
+    }
+        .stk a:hover {
+            text-decoration: underline;
+        }
